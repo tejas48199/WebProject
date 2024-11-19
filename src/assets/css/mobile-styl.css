@@ -1,0 +1,145 @@
+@media (max-width:2560px) {
+    .panel{
+        position: absolute;
+        /* left: 1000px;  */
+     }
+     .section-2{
+        margin-top: 0px;
+     }
+}
+@media (max-width:1024px) {
+    .icons {
+            width: 60vmin;
+           }
+           .headerimg{
+            position: relative;
+            top: 90px;
+            }
+        .headerimg{
+            position: relative;
+            top: 90px;
+            } 
+            .panel{
+               position: absolute;
+               left: 380px; 
+               top: 770px;
+            }
+            .numbers .rect{
+                width:13rem ;
+            }
+            .section-3{
+                height: inherit;
+                padding: 30vmin !important;
+            }
+            .section-3 .row h1{
+                padding: 10vmin 10vmin;
+            }
+            .platform1{
+                text-align: center !important;
+            }
+            .section-4 .card{
+                width: 18rem;
+            }
+            .section-4 .carousel{
+                position: relative;
+                left: -50px;
+               }
+
+    }
+@media (max-width:768px){
+    header.navbar-brand{
+        padding-left: 1rem; 
+    }
+    /* .header1{
+        position: relative;
+        left: -40px;
+    }*/
+     .headerimg{
+position: relative;
+top: 80px;
+}  
+        .panel{
+            position:initial ;
+            height: initial;
+            width: initial;
+        }
+         .cover{
+            background-position:-25vmin -10vmin ;
+        }
+        .numbers .rect{
+            width:15rem ;
+            height:8rem ;
+        }
+        .numbers .rect h1{
+            font-size: 2rem;
+        }
+        .section-3{
+            height: inherit;
+            padding: 10vmin !important;
+        }
+        .section-3 .row h1{
+            padding: 6vmin 4vmin;
+        }
+        .platform1{
+            text-align: center !important;
+        }
+       .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+       }
+       .section-4 .carousel{
+        width: 24rem;
+        position: relative;
+        left: -70px;
+       }
+       .section-4 .card{
+        position: relative;
+        left: -30px;
+    }
+       .icons {
+        width: 60vmin;
+       }
+}
+@media (max-width:425px) {
+    .foot {
+        margin-top: 8vmin;
+    }
+    .headerimg{
+        position: relative;
+        right: -30vmin;
+        top: -80px;
+        } 
+        .section-4 .card{
+            position: relative;
+            left: 10px;
+        }
+        .section-4 .carousel{
+            width: 24rem;
+            position: relative;
+            left: -18px;
+           }
+        }
+
+
+
+@media (max-width:375px) {
+.section-4 .card{
+    width: 18rem;
+}
+.section-4 .carousel{
+    position: relative;
+    left: -40px;
+   }
+}
+@media (max-width:320px) {
+    .section-4 .card{
+        position: relative;
+        left: 2px;
+    }
+    .section-4 .carousel{
+        width: 24rem;
+        position: relative;
+        left: -65px;
+       }
+} 
